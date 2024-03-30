@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'Poppins', sans-serif;
+}
+
+.logo img{
+    margin-left:10px;
+}
+.small-container {
+    max-width: 200px;
+    margin: auto;
+    padding-left:25px;
+    padding-right: 25px;
+}
+.col-3{
+    flex-basis: 25%;
+    padding:10px;
+    min-height: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+    box-shadow: 0 0 20px 0px rgba( 0, 0, 0, 0.1);
+}
+.col-3 img{
+    width: 100%;
+}
+.rating .fa{
+    color: #ff523b;
+ }
+ .col-3:hover{
+    transform: translateY(-8px);
+ }

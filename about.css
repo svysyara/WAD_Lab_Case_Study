@@ -1,0 +1,17 @@
+nav ul{
+    display: inline-block;
+    list-style-type:none;
+    margin-left: 1050px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+}
